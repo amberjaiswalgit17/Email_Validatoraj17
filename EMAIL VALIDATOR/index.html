@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValidateX - [Email Validator]</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCEtLSBVcGxvYWRlZCB0bzogU1ZHIFJlcG8sIHd3dy5zdmdyZXBvLmNvbSwgR2VuZXJhdG9yOiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CgogIDxnIHN0eWxlPSJzdHJva2U6IzMzMzMzMztzdHJva2Utd2lkdGg6MiI+CiAgICA8cGF0aCBzdHlsZT0iZmlsbDojQzRDNDhCIiBkPSJtIDMsMTYgOTQsMCAwLDY4IC05NCwwIHoiLz4KICAgIDxwYXRoIHN0eWxlPSJmaWxsOiNFQUVBQUIiIGQ9Im0gNCwxNiAzNCwzMyBjIDcsNyAxNSw3IDIzLDAgTCA5NiwxNiB6Ii8+CiAgICA8cGF0aCBzdHlsZT0iZmlsbDpub25lIiBkPSJNIDk2LDg0IDU5LDUxIE0gNCw4NCA0MCw1MSIvPgogIDwvZz4KCiAgPGcgdHJhbnNmb3JtPSJzY2FsZSgwLjYpLCB0cmFuc2xhdGUoNTYsNTYpIj4KICAgIDxwYXRoIHN0eWxlPSJmaWxsOiNGRjg1MDA7c3Ryb2tlOiM4MjVCMEE7c3Ryb2tlLXdpZHRoOjQiIGQ9Ik0gOTgsNDMgNzQsNjYgNzksOTkgNDksODQgMTksOTkgMjUsNjYgMSw0MiAzNCwzNyA0OSw3IDY0LDM3IHoiLz4KICA8L2c+Cgo8L3N2Zz4=" alt="email">
+                <span>ValidateX</span>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Enter your Email to Validate:</h1>
+            <form id="emailForm">
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Enter your email" name="email">
+                <button type="submit" id="submitBtn" class="btn">Submit</button>
+            </form>
+        </div>
+        <div class="container">
+            <h2>Your Results</h2>
+            <div id="resultCont" class="result-hidden">
+                <img src="loading.svg" alt="load results" class="center">
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; ValidateX.com | All Rights Reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
